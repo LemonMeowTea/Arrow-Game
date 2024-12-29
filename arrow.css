@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#arr1, #arr2, #arr4, #arr5 {
+    color: blue; /* Default color; will be set dynamically */
+}
+
+.hidden {
+    display: none; /* Class to hide arrows */
+}
